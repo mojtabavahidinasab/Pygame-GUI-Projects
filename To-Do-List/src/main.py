@@ -6,11 +6,11 @@ from textbar import TextBar
 from main_panel import Panel
 from path import get_path
 
-FILE_PATH_LIST = get_path("src", "file.txt")
-FILE_PATH_NUM = get_path("src", "num.txt")
-FILE_PATH_CLICKED = get_path("src", "clicked.txt")
+FILE_PATH_LIST = "C:/Users/Jash/OneDrive/Documents/GitHub/Pygame-GUI-Projects/To-Do-List/src/file.txt"
+FILE_PATH_NUM = "C:/Users/Jash/OneDrive/Documents/GitHub/Pygame-GUI-Projects/To-Do-List/src/num.txt"
+FILE_PATH_CLICKED = "C:/Users/Jash/OneDrive/Documents/GitHub/Pygame-GUI-Projects/To-Do-List/src/clicked.txt"
 
-FONT = get_path("assets", "font.ttf")
+FONT = "C:/Users/Jash/OneDrive/Documents/GitHub/Pygame-GUI-Projects/To-Do-List/assets/font.ttf"
 
 class App:
     def __init__(self):
@@ -162,3 +162,5 @@ class App:
 
 if __name__ == "__main__":
     App().main_function()
+
+# The get_path doesn't work so I had to hard-code the path:(
