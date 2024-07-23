@@ -164,3 +164,4 @@ if __name__ == "__main__":
     App().main_function()
 
 # The get_path doesn't work so I had to hard-code the path:(
+# Please change the paths if you fork or download this repository.
