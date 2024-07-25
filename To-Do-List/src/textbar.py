@@ -15,7 +15,7 @@ class TextBar:
         self.color_main = (255, 255, 255)
         self.color = (255, 255, 255)
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
-        self.add_btn = pygame.transform.scale(pygame.image.load("C:/Users/Jash/OneDrive/Documents/GitHub/Pygame-GUI-Projects/To-Do-List/assets/add.png"), (40, 40)).convert_alpha()
+        self.add_btn = pygame.transform.scale(pygame.image.load("To-Do-List/assets/add.png"), (40, 40)).convert_alpha()
         self.add_btn_rect = pygame.Rect((self.x + self.width - 45), (self.y + 5), 40, 40)
         self.writing = False
 

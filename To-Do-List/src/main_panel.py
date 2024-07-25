@@ -14,8 +14,8 @@ class Panel:
         self.string = string
         self.color_main = (255, 255, 255)
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
-        self.delete_btn = pygame.transform.scale(pygame.image.load("C:/Users/Jash/OneDrive/Documents/GitHub/Pygame-GUI-Projects/To-Do-List/assets/delete.png"), (40, 40)).convert_alpha()
-        self.clicked_btn = pygame.transform.scale(pygame.image.load("C:/Users/Jash/OneDrive/Documents/GitHub/Pygame-GUI-Projects/To-Do-List/assets/verified.png"), (20, 20)).convert_alpha()
+        self.delete_btn = pygame.transform.scale(pygame.image.load("To-Do-List/assets/delete.png"), (40, 40)).convert_alpha()
+        self.clicked_btn = pygame.transform.scale(pygame.image.load("To-Do-List/assets/verified.png"), (20, 20)).convert_alpha()
         self.delete_btn_rect = pygame.Rect((self.x + self.width - 45), (self.y + 5), 40, 40)
         self.priority_btn_rect = pygame.Rect((self.x + self.width + 25/2), (self.y + 25//2), 25, 25)
         self.priority_list = [(0, 0, 200), (0, 200, 0), (200, 0, 0)]

@@ -3,3 +3,4 @@ Tasks, priority and ticks stored
 Used custom database(.txt)
 When I upload this on github,
 You will see the tasks in .txt
+Fix the Path
