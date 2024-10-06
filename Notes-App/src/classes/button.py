@@ -9,7 +9,7 @@ class Button:
         self.color = color
         self.border_radius = border_radius
         self.text = text
-        self.font = pygame.font.Font('font.ttf', self.height//2)
+        self.font = pygame.font.Font('Notes-App/font.ttf', self.height//2)
         self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
 
     def draw(self, win):

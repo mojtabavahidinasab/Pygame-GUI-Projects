@@ -5,7 +5,7 @@ class Line:
         self.x = x
         self.y = y
         self.text = text
-        self.font = pygame.font.Font('font.ttf', 20)
+        self.font = pygame.font.Font('Notes-App/font.ttf', 20)
         self.color = (0, 0, 0)
         self.rect = None
 
